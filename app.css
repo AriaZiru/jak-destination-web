@@ -14,11 +14,10 @@ body {
 }
 
 #navbar .nav-link:hover{
-    color: #354259;
+    color: #8cff6c;
 }
 
 #navbar .navbar-brand{
-    color: #354259;
     font-size: 1.5rem;
 }
 
@@ -40,7 +39,7 @@ body {
 
 .blurb p{
     color: #3f4e4f;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 1.125rem;
     line-height: 2;
 }

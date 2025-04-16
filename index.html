@@ -17,9 +17,11 @@
       rel="stylesheet" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#Home">WELCOME JAKARTA</a>
+    <nav class="navbar navbar-expand-lg fixed-top bg-success" id="navbar">
+      <div class="container-fluid d-flex">
+        <div class="flex-grow-1">
+          <a class="navbar-brand text-white" href="#Home">WELCOME JAKARTA</a>
+        </div>
         <button
           class="navbar-toggler"
           type="button"
@@ -31,10 +33,16 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            <a class="nav-link" href="#about">About</a>
-            <a class="nav-link" href="#ticket">Ticket</a>
+          <div
+            class="navbar-nav col-lg-11 justify-content-end justify-content-end">
+            <a
+              class="nav-link active ps-lg-5 pe-lg-5"
+              aria-current="page"
+              href="#home"
+              >Home</a
+            >
+            <a class="nav-link ps-lg-3 pe-lg-3" href="#about">About</a>
+            <a class="nav-link ps-lg-5 pe-lg-5" href="#ticket">Ticket</a>
           </div>
         </div>
       </div>
@@ -63,7 +71,7 @@
         <div class="col-md-6 text-center order-1">
           <div class="row justify-content-center">
             <div class="col-10 col-lg-8 blurb pt-3">
-              <h2 class="text-center">Masjid Istiqlal</h2>
+              <h2 class="text-center pb-3">Masjid Istiqlal</h2>
               <img
                 src="images/logo-istiqlal.png"
                 class="d-none d-lg-inline"
